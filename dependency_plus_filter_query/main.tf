@@ -27,9 +27,3 @@ data "aws_instance" "dbsearch" {
         values = ["db server"]
     }
 }
-
-
-
-output "dbservers" {
-    value = data.aws_instance.dbsearch.arn
-    }

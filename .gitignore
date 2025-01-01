@@ -22,3 +22,43 @@ terraform.rc
 # Ignore local Terraform configuration directory
 .terraform/
 
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude backup files
+*.backup
+
+# Exclude override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan files
+*.tfplan
+
+# .terraformrc and terraform.rc
+.terraformrc
+terraform.rc
+
+# Variables files
+*.tfvars
+*.tfvars.json
+
+# Sensitive data files
+*.tfvars
+*.tfvars.json
+
+# Provider-specific files
+provider.tf
+
+# Exclude SSH key files
+*.pem
+*.key
