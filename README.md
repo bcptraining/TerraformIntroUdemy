@@ -1,0 +1,1 @@
+Note that the way this course progressed resulted in a very piecemiel set of files not intended to work together. Use this to find useful example code snippets, but do not consider this an example of a real-world project.  
